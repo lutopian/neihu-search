@@ -10,7 +10,9 @@ body {
 }
 
 .logo-container {
-    max-height: 500px;
+    width: 60%;
+    padding-left: .5rem;
+    max-height: 400px;
 }
 
 .home-search {
@@ -25,7 +27,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 600px;
+    max-width: 500px;
     z-index: 15;
 }
 
@@ -36,28 +38,26 @@ body {
 }
 
 #search-bar {
-    background: transparent !important;
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     height: 40px;
     outline: none;
-    font-size: 24px;
-    border-radius: 10px 10px 0 0;
-    max-width: 600px;
-    background: rgba(0, 0, 0, 0);
-}
+    font-size: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    background: rgba(0, 0, 0, 0.1);
 
 #search-submit {
-    width: 100%;
+    width: 80%;
     height: 40px;
+    position: absolute;
+    left: 90%;
+    transform: translate(-50%, 0);
     text-align: center;
     cursor: pointer;
     font-size: 20px;
-    align-content: center;
-    align-items: center;
-    margin: auto;
-    border-radius: 0 0 10px 10px;
-    max-width: 600px;
+    border-radius: 10px;
+    max-width: 6.5rem;
     -webkit-appearance: none;
 }
 
