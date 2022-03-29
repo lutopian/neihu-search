@@ -12,7 +12,6 @@ a {
 
 @media (max-width: 1000px) {
     svg {
-        margin-top: .3em;
-        height: 70%;
+        margin-top: .7em;
     }
 }
